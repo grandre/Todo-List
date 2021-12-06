@@ -3,8 +3,7 @@
         <div class="card">
             <div class="header">
                 <h2 class="title">Lista de afazeres</h2>
-                <form-item 
-                    v-on:reloadlist="getList()"></form-item>
+                <form-item v-on:reloadlist="getList()"></form-item>
             </div>
             <div class="list">
                 <list-item

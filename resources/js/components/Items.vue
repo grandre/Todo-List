@@ -35,7 +35,7 @@ export default {
         destroyItem() {
             axios
                 .delete("api/item/" + this.item.id)
-                .then(response => {
+                .then((response) => {
                     if (response.status == 200) {
                         this.$emit("itemdestroyed");
                     }
